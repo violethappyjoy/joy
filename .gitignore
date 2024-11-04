@@ -4,4 +4,3 @@ portfolio/
 temp/
 Caddyfile
 docker-compose.yml
-mqtt/
