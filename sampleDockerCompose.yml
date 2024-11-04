@@ -13,7 +13,7 @@ services:
       - ./mosquitto/config:/mosquitto/config
       - ./mosquitto/data:/mosquitto/data
       - ./mosquitto/log:/mosquitto/log
-      - ./mosquitto/entrypoint.sh:/entrypoint.sh  # Add custom entrypoint script
+      - ./mosquitto/entrypoint.sh:/entrypoint.sh  
     entrypoint: /entrypoint.sh 
 
   mongodb:
