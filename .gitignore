@@ -5,3 +5,4 @@ temp/
 Caddyfile
 docker-compose.yml
 mosquitto/
+caddy_logs/
